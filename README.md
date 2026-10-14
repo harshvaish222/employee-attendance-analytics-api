@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Set `MONGO_URI` and `MONGO_DB` in your environment, or create a local `.env` file:
 
 ```env
-MONGO_URI=mongodb://localhost:27017
+MONGO_URI=<your Atlas connection string>
 MONGO_DB=attendance_db
 ```
 
